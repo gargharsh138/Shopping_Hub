@@ -1,0 +1,119 @@
+.navbar{
+	margin-bottom: 0px !important;
+	border : 0 !important;
+	opacity: 0.9;
+	letter-spacing: 2px;
+	background-color: #000000   !important;
+	font-family: Lato, sans-serif;
+	}
+.navbar ul li a{
+		color: #FDFEFE !important;
+	}
+	
+.navbar-brand{
+	color: white !important;
+}
+.dropdown-menu{
+	background-color: #000000 !important;
+	
+}
+
+.dropdown-menu li{
+	color: red !important;
+	letter-spacing: 2px;
+
+	}
+
+.dropdown-menu li a:hover{
+	color: black !important;
+}
+#txtmyaccount
+{ 
+     font:Verdana, Geneva, sans-serif;
+	 font-size:20px;
+	 font-weight:100;
+	 float:left !important;
+	 margin-left:50px;
+}
+#bottom_main
+{ 
+	height:500px;
+	width:1300px;
+	background:#fff;
+	margin-left:50px;
+	
+}
+#leftmain
+{
+	height:300px;
+	width:200px;
+	background:#fff;
+	float:left;	
+}
+#rightmain
+{
+	float:left;
+	height:460px;width:1050px;
+	background:#fff;
+	margin-left:25px;
+	border: outset;
+	border-radius:3px;
+}
+#inright
+{
+	float:left;
+	height:418px;width:950px;
+	background:#fff;
+	margin-left:50px;
+	margin-right:50px;
+}
+#right-a
+{
+	height:366px;
+	width:200px;
+	background:#fff !important;	
+	margin-top:30px;
+	
+}
+#button1
+{
+	height:30px;
+	width:195px;
+	border:none;
+	background-color:#36F;
+	border-radius:3px;
+	border-color:#333;
+	font-size:10px;
+	margin-top:3px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:800;
+	color:white;
+	letter-spacing:1.5px;
+}
+#txt1
+{
+	font-size:18px;
+	font-weight:bolder;
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-left:50px;
+	color:#000;
+	 margin-top:10px;
+		
+}
+
+#txt2
+{
+	font-size:13px;
+	font-weight:bold;
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#33F;
+}
+#password
+{
+	height:40px;
+	width:600px;
+	font-size:15px;
+	letter-spacing:1.5px;
+	border-radius:5px;
+	margin-bottom:40px;	
+}

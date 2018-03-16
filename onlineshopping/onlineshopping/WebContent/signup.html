@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Shopping Hub</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="signup.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	<!-- bootstrap added -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    
+    <!--javascript start-->
+    <script type="text/javascript">
+		function av()
+		{
+				var a=document.getElementById('txt1').value;
+				if(a==0)
+				{
+				alert("Enter Name")
+				return false;
+				}
+				var b=document.getElementById('txt2').value;
+				if(b==0)
+				{
+				alert("Enter Last Name")
+				return false;
+				}
+				var c=document.getElementById('txt3').value;
+				if(c==0)
+				{
+				alert("Enter mobile no.")
+				return false;
+				}
+				if(isNaN(c)){
+				alert("Mobile no. must be in numeric form")
+				}
+				if(c.length<10||c.length>10){
+				alert("Mobile no. must be of 10 digits")
+				}
+				var d=document.getElementById('txt5').value;
+				if(d==0)
+				{
+				alert("Enter Email")
+				return false;
+				}
+				var e=document.getElementById('txt7').value;
+				if(e==0)
+				{
+				alert("Enter Password")
+				return false;
+				}
+				if(e.length<=5)
+				{
+				alert("Password is too short")
+				return false;
+				}
+				
+				var f=document.getElementById('txt8').value;
+				if(f==0)
+				{
+				alert("Confirm Password")
+				return false;
+				}
+				if(f!=e)
+				{
+				alert("Password doesnot match")
+				return false;
+				}
+				var rd1=document.getElementById('rd1').checked;
+				var rd2=document.getElementById('rd2').checked;
+				if(rd1==0&&rd2==0)
+				{
+				alert("Select Gender")
+				return false;
+				}
+
+		}
+	</script>			<!-- Javascript ends -->
+    
+</head>
+<body background="pics\russian.jpg" role="responsive">
+
+<div id="nb">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="responsive">			<!-- navigation bar -->
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html">Shopping Hub</a>
+			</div>
+		<ul class="nav navbar-nav navbar-left">
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Men</a>		<!-- Men dropdown -->
+				<ul class="dropdown-menu">
+					<center><b><li>Topwear</li></b></center>
+						<li><a href="">Shirts</a></li>
+						<li><a href="">T-Shirt</a></li>
+						<li><a href="">Sweaters & Sweatshirts</a></li>
+						<li><a href="">Blazers</a></li>
+					<center><b><li>Bottomwear</li></b></center>
+						<li><a href="">Trousers</a></li>
+						<li><a href="">Jeans</a></li>
+						<li><a href="">Trackpants</a></li>
+					<center><b><li>Footwear</li></b></center>
+						<li><a href="">Casual Shoes</a></li>
+						<li><a href="">Formal Shoes</a></li>
+						<li><a href="">Sports Shoes</a></li>
+					<center><b><li>Accesories</li></b></center>
+						<li><a href="">Watches</a></li>
+						<li><a href="">Wallets</a></li>
+						<li><a href="">Belts</a></li>						<!-- Men dropdown end -->
+				</ul>
+			</li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Women</a>	<!-- Women dropdown -->
+				<ul class="dropdown-menu">
+					<center><b><li>Westernwear</li></b></center>
+						<li><a href="">Shirts</a></li>
+						<li><a href="">T-Shirt</a></li>
+						<li><a href="">Sweaters & Sweatshirts</a></li>
+						<li><a href="">Blazers</a></li>
+						<li><a href="">Trousers</a></li>
+						<li><a href="">Jeans</a></li>
+					<center><b><li>Indianwear</li></b></center>
+						<li><a href="">Kurtis</a></li>
+						<li><a href="">Sarees & Blouses</a></li>
+						<li><a href="">Suits</a></li>
+					<center><b><li>Footwear</li></b></center>
+						<li><a href="">Casual Shoes</a></li>
+						<li><a href="">Formal Shoes</a></li>
+						<li><a href="">Sports Shoes</a></li>
+					<center><b><li>Accesories</li></b></center>
+						<li><a href="">Watches</a></li>
+						<li><a href="">Wallets</a></li>
+						<li><a href="">Belts</a></li>						<!-- end of Women dropdown -->
+				</ul>
+			</li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Kids</a>		<!-- Kids dropdown -->
+				<ul class="dropdown-menu">
+					<center><b><li>Topwear</li></b></center>
+						<li><a href="">Shirts</a></li>
+						<li><a href="">T-Shirt</a></li>
+						<li><a href="">Sweaters & Sweatshirts</a></li>
+					<center><b><li>Bottomwear</li></b></center>
+						<li><a href="">Trousers</a></li>
+						<li><a href="">Jeans</a></li>
+						<li><a href="">Shorts</a></li>
+					<center><b><li>Footwear</li></b></center>
+						<li><a href="">Casual Shoes</a></li>
+						<li><a href="">Formal Shoes</a></li>
+						<li><a href="">Sports Shoes</a></li>
+					<center><b><li>Accesories</li></b></center>
+						<li><a href="">Watches</a></li>
+						<li><a href="">Wallets</a></li>
+						<li><a href="">Belts</a></li>						<!-- end of Kids dropdown -->
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</nav>
+ 	</div>
+    <br>
+    <br>
+ 
+      <div id="topformbrdr">
+   	  <div id="topform">
+      <br>
+      <div class="lg"><i>Sign Up For Shopping Hub</i> </div>
+      <br>
+      
+      <div id="form1">
+      <form action="/onlineshopping/Jdbc" method="post" >
+			<input type="text" id="txt1" name="a" placeholder="   First Name" required>
+			<input type="text" name="b" placeholder="     Lastname" id="txt2" required>
+			<br><br>
+			<input type="text" id="txt3" name="c" placeholder="  Mobile number or phone number" size="10" required>
+			<br><br>
+			<input type="text" id="txt5" name="d" placeholder="  Enter E-mail" size="35" required>
+			<br><br>
+            <input type="password" id="txt7" name="e" placeholder="  Choose Password" size="35" required>
+			<br><br>
+            <input type="password" id="txt8" name="f" placeholder="  Confirm Password" size="35" required>
+			<br><br>
+            <input type="radio" id="rd1" name="rd" value="Male">&nbsp;<b>Male</b>
+            <br>
+             <input type="radio" id="rd2" name="rd" value="Female">&nbsp;<b>Female</b>
+            
+            <br><br>
+            <input type="submit" value="Sign Up" id="btton1" onClick="return av()">
+            <br>
+            
+            
+            </form>
+      </div>
+      		<div id="txt10"><b>Already have a account :</b></div>
+            <a id="ilogin" href="login.html"> Log In</a>
+             
+      </div></div>
+      
+      </div>
+  
+    
+    
+</body>
+</html>
